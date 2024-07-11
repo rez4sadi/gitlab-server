@@ -37,7 +37,7 @@ services:
       timeout: 10s
       retries: 3
       start_period: 5m
-    environment:
+    environment:  
     - DEBUG=false
 
     - DB_ADAPTER=postgresql
@@ -60,7 +60,7 @@ services:
     - GITLAB_SECRETS_SECRET_KEY_BASE=long-and-random-alphanumeric-string
     - GITLAB_SECRETS_OTP_KEY_BASE=long-and-random-alphanumeric-string
     - GITLAB_ROOT_PASSWORD=Aaqwer1234
-    - GITLAB_ROOT_EMAIL=mrnickfetrat@gmail.com
+    - GITLAB_ROOT_EMAIL=rez4sadi@gmail.com
     - GITLAB_NOTIFY_ON_BROKEN_BUILDS=true
     - GITLAB_NOTIFY_PUSHER=false
 
